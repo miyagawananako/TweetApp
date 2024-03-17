@@ -193,7 +193,7 @@ userRouter.patch(
     if (!user) return next(new Error("Invalid error: The user is undefined."));
     Object.assign(user, {name, email});
     if (req.file) {
-      user.imageName = req.file.path;
+      user.imageName = req.file.path.replace("public", ""); // replace処理を追加
     } else {
       console.log("no file");
     }
