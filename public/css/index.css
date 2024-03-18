@@ -58,7 +58,7 @@ form input[type="submit"] {
 /* common layout ================================ */
 body {
   color: #2d3133;
-  background-color: #3ecdc6;
+  background-color: #416D19;
   margin: 0;
   min-height: 1vh;
 }
@@ -144,7 +144,7 @@ header {
   height: auto;
   min-height: 100%;
   color: white;
-  background-color: #3ecdc6;
+  background-color: #416D19;
   background-repeat: no-repeat;
   background-position: center 50%;
   background-size: cover;
@@ -229,7 +229,7 @@ header {
 }
 
 .form input[type="submit"] {
-  background-color: #3ecdc6;
+  background-color: #416D19;
   color: white;
   cursor: pointer;
   font-weight: 300;
@@ -281,7 +281,7 @@ header {
 }
 
 .post-user-name a:hover {
-  color: #3ecdc6;
+  color: #416D19;
 }
 
 .post-left {
@@ -402,7 +402,7 @@ img[data-test=post-image] {
 }
 
 .comments-form input[type="submit"] {
-  background-color: #3ecdc6;
+  background-color: #416D19;
   color: white;
   cursor: pointer;
   font-weight: 300;
@@ -492,7 +492,7 @@ input[type="checkbox"] {
 }
 
 .user-name a:hover {
-  color: #3ecdc6;
+  color: #416D19;
 }
 
 .user-left {
@@ -561,7 +561,7 @@ input[type="checkbox"] {
 }
 
 .user-tabs li.active {
-  border-bottom: 2px solid #3ecdc6;
+  border-bottom: 2px solid #416D19;
 }
 
 .user-tabs li.active a {
