@@ -69,7 +69,7 @@ body {
   width: 100%;
   height: auto;
   min-height: 100%;
-  background-color: #f5f8fa;
+  background-color: #F5F2EB;
 }
 
 .container {
@@ -94,6 +94,7 @@ header {
   color: white;
   font-size: 22px;
   line-height: 64px;
+  font-family: "Kaisei Opti", serif;
 }
 
 .header-logo a{
@@ -151,10 +152,6 @@ header {
   background-image: url("/image/top.jpg");
 }
 
-.top-message {
-  position: relative;
-}
-
 .top-main h2 {
   font-size: 70px;
   font-weight: 500;
@@ -165,27 +162,6 @@ header {
 
 .top-main p {
   font-size: 24px;
-}
-
-/* about ================================ */
-.about-main {
-  padding: 180px 8% 0;
-  color: white;
-}
-
-.about-main h2 {
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-.about-main p {
-  font-weight: 200;
-  font-size: 20px;
-}
-
-.about-img {
-  width: 84%;
 }
 
 /* form ================================ */
